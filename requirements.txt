@@ -1,0 +1,15 @@
+# ── Core ─────────────────────────────────────────────────────────────────────
+numpy>=1.24
+opencv-python-headless>=4.8
+tqdm>=4.66
+
+# ── Deep learning ─────────────────────────────────────────────────────────────
+# Install the CUDA build if you have a GPU:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+torch>=2.2
+torchvision>=0.17
+
+# ── Vector search ─────────────────────────────────────────────────────────────
+# CPU-only build (default). For GPU FAISS:
+#   conda install -c pytorch -c nvidia faiss-gpu
+faiss-cpu>=1.8
